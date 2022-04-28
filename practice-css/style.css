@@ -18,9 +18,9 @@ h1 {
 h1.target {
   padding: 30px;
   margin: 0px;
-  width: 500px;
-  height: 300px;
-  background: green;
+  width: 900px;
+  height: 100px;
+  background: rgb(2, 80, 2);
 }
 
 h2 {
