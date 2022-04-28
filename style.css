@@ -20,5 +20,9 @@ h1 {
 /*main*/
 
 main {
-    padding: 2em;
+    padding: 4em;
+}
+
+main p{
+    font-family: sans-serif;
 }
