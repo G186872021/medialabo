@@ -15,6 +15,13 @@ body {
 h1 {
   font-size: 4em;
 }
+h1.target {
+  padding: 30px;
+  margin: 0px;
+  width: 500;
+  hitght: 300;
+  background: 
+}
 
 h2 {
   font-size: 3.2em;
