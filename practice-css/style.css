@@ -2,7 +2,7 @@
 
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: 10px;
+  font-size: 20px;
 }
 
 body {
@@ -36,7 +36,7 @@ header, footer {
 }
 
 h1, footer p {
-  margin: 20px;
+  margin: 15px;
 }
 
 h1 {
