@@ -15,13 +15,7 @@ body {
 h1 {
   font-size: 4em;
 }
-h1.target {
-  padding: 30px;
-  margin: 0px;
-  width: 900px;
-  height: 100px;
-  background: rgb(25, 144, 148);
-}
+
 
 h2 {
   font-size: 3.2em;
@@ -36,7 +30,7 @@ p li {
 /* header and footer */
 
 header, footer {
-  background-colour: teal;
+  background: teal;
   height: 10em;
   padding: 2em;
 }
