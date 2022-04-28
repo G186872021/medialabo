@@ -1,3 +1,14 @@
+/*文字の書体*/
+
 html {
-    font-family: Georgia, serif;
+    font-family: serif;
+}
+/*文字の大きさ*/
+
+/*header*/
+
+header {
+    background: rgb(172, 172, 228);
+    height: 10em;
+    padding: 1.5em;
 }
