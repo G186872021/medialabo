@@ -32,7 +32,7 @@ main p, main li, footer p {
 header, footer {
   background: teal;
   height: 10em;
-  padding: 2em;
+  padding: 1.7em;
 }
 
 h1, footer p {
