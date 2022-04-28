@@ -23,6 +23,9 @@ main {
     padding: 4em;
 }
 
-main p{
+main h4 {
+    font-size: large;
+}
+main p, main h4{
     font-family: sans-serif;
 }
