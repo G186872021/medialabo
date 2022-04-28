@@ -20,7 +20,7 @@ h1.target {
   margin: 0px;
   width: 500px;
   height: 300px;
-  background: green(10, 129, 83);
+  background: green;
 }
 
 h2 {
