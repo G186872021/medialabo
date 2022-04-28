@@ -1,10 +1,13 @@
 /*文字の書体*/
 
 html {
-    font-family: serif;
+    font-family: sans-serif;
 }
-/*文字の大きさ*/
 
+/*文字の大きさ*/
+main h3,main h4 {
+    font-size: large;
+}
 /*header*/
 
 header {
@@ -14,6 +17,7 @@ header {
 }
 
 h1 {
+
     text-align: center;
 }
 
@@ -23,9 +27,3 @@ main {
     padding: 4em;
 }
 
-main h3,main h4 {
-    font-size: large;
-}
-main p, main h4{
-    font-family: sans-serif;
-}
