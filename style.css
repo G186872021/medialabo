@@ -16,3 +16,9 @@ header {
 h1 {
     text-align: center;
 }
+
+/*main*/
+
+main {
+    padding: 2em;
+}
