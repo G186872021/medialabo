@@ -8,3 +8,12 @@ header {
     height: 5em;
     padding: 1.5em;
 }
+div.hyou {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    grid-gap: 10px;
+
+    width: 300px;
+
+}
