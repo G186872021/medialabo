@@ -23,7 +23,13 @@ h1 {
 
 /*main*/
 
+
+h3 {
+    color:rgb(13, 13, 97)
+
+}
 main {
+    color: slategrey;
     padding: 4em;
 }
 
