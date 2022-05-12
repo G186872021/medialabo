@@ -11,13 +11,13 @@ main h3,main h4 {
 /*header*/
 
 header {
-    background: rgb(13, 13, 97);
+    background: silver;
     height: 5em;
     padding: 1.5em;
 }
 
 h1 {
-    color: white;
+    color: skyblue;
     text-align: center;
 }
 
@@ -29,8 +29,8 @@ h3 {
 
 }
 main {
-    background: slategrey;
-    color: seashell;
+    background: rgb(6, 2, 46);
+    color: springgreen;
     padding: 4em;
 }
 
