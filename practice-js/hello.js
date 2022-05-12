@@ -6,3 +6,5 @@
 	<string>https://www.nishita-lab.org/web-contents/text/practice-js/hello.js</string>
 </dict>
 </plist>
+
+console.log('こんにちは');
