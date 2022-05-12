@@ -17,7 +17,7 @@ let gakka = [
 //////////////// ここから下にプログラムを書きたそう!
 
 console.log(campus.address);
-for (let a of campus.buldingD) {
+for (let a of campus.buildingD) {
 	console.log(a);
 }
 for (let b of gakka) {
