@@ -17,7 +17,7 @@ hantei();
 function hantei() {
     let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
     
-    for (let a of kaisu) {
+    for (let a = 1; a===kaisu; a++) {
         if (kotae!==yoso) {
             if (kotae>=yoso) {
                 console.log('まちがい。答えはもっと大きいですよ。');
