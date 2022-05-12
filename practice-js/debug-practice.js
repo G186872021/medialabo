@@ -10,7 +10,7 @@ console.log(ary[2]);        // 3番目の要素は存在しない
 
 // (4) 小数のインデックス       → undefined　（エラーにならない）
 let i = 3/2;
-Math.floor(i);
+i = Math.floor(i);
 console.log(ary[i]);        // i=3/2=1.5 なので ary[1.5] を参照しようとする
 
 // (5) メンバー名の間違い       → undefined （エラーにならない）
