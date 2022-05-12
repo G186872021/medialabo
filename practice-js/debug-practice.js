@@ -18,13 +18,13 @@ let obj = {x:3, y:7};
 console.log(obj.x);         // メンバー z は存在しない
 
 // (6) 初期化していない変数のメンバー   → エラー発生
-let o = 1;
+let o = {x:1};
 console.log(o.x);           // oは初期化していない
 
 // (7) オブジェクトや配列ではない値のメンバーと要素	→ undefined （エラーにならない）
-let n = 3;
+let n = {x:1};
 console.log(n.x);			// n はオブジェクトではない
-console.log(n[2]);			// n は配列ではない
+console.log(ary[2]);			// n は配列ではない
 
 // (8) メンバー名の間違い(その2）       → エラー発生
 let obj2 = {
