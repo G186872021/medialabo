@@ -52,5 +52,11 @@ temp_max();
 temp_min();
 
 function tosi() {
-  console.log(data.name)
+  console.log(data.name);
+}
+function temp_max() {
+  console.log(data.main.temp_max);
+}
+function temp_min() {
+  console.log(data.main.temp_min);
 }
