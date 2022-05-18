@@ -202,8 +202,7 @@ let data = {
 /////////// 課題3-2 ここからプログラムを書こう
 
 tennpo();
-
+tennpo();
 function tennpo() {
-  console.log(data.name);
-  console.log(data.name_kana);
+  console.log(data.results.shop.name);
 }
