@@ -47,4 +47,10 @@ let data = {
 
 ////////// 課題3-2 ここからプログラムを書こう
 
-console.log(sys)
+tosi();
+temp_max();
+temp_min();
+
+function tosi() {
+  console.log(data.name)
+}
