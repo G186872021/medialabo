@@ -84,5 +84,5 @@ let data = {
 banngumi();
 banngumi();
 function banngumi() {
-  console.log(data.list.g1.title.act[0]);
+  console.log(data.list.g1.title);
 }
