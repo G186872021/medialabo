@@ -81,3 +81,8 @@ let data = {
 
 /////////////////// 課題3-2 はここから書き始めよう
 
+banngumi();
+banngumi();
+function banngumi() {
+  console.log(data.gl.title);
+}
