@@ -18,8 +18,7 @@ function hantei() {
     let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
     if (yoso===kotae) {
         console.log('正解です。おめでとう!');
-    } 
-    if (kotae>yoso) {
+    } else if (kotae>yoso) {
         console.log('まちがい。答えはもっと大きいですよ。');
     } else  {
         console.log('まちがい。答えはもっと小さいですよ。');
