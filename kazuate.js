@@ -21,7 +21,7 @@ function hantei() {
     } 
     if (kotae>yoso) {
         console.log('まちがい。答えはもっと大きいですよ。');
-    } else (kotae<yoso) {
+    } else  {
         console.log('まちがい。答えはもっと小さいですよ。');
     }
     
