@@ -41,3 +41,9 @@ for (let o of oceans) {
   ul.insertAdjacentElement('beforeend', li);
   console.log(o);
 }
+
+let h2s = document.querySelector('h2');
+
+for (let h2 of h2s) {
+    h2.style.backgroundColor = 'palegreen';
+}
