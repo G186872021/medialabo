@@ -28,7 +28,7 @@ let oceans = [
 ]
 
 // ul 要素を新規作成する．（次の行を完成させる）
-let ul = document.createElement('ul');
+ul = document.createElement('ul');
 
 // ul 要素を h2sevenOcean の次に追加する（次の行を書く）
 h2sevenOcean.insertAdjacentElement('afterend',ul );
@@ -39,4 +39,5 @@ for (let o of oceans) {
   li = document.createElement('li');
   li.textContent = oceans[o];
   ul.insertAdjacentElement('beforeend', li);
+  console.log(oceans[o]);
 }
