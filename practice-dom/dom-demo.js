@@ -45,5 +45,5 @@ for (let o of oceans) {
 let h2s = document.querySelector('h2');
 
 for (let h2 of h2s) {
-    h2.style.backgroundColor = 'palegreen';
+    h2s.style.backgroundColor = 'palegreen';
 }
