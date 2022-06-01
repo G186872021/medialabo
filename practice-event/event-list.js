@@ -32,7 +32,7 @@ c8.addEventListener('keypress', changeColor);
 
 // cell9: キーボードのキーを押すと色が変わる
 let c9 = document.querySelector('#cell9');
-c9.addEventListener('keydoun', changeColor);
+c9.addEventListener('keydown', changeColor);
 
 // cell10: キーボードのキーを離すと色が変わる
 let c10 = document.querySelector('#cell10');
