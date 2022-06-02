@@ -17,9 +17,7 @@ function hantei() {
     let b = document.querySelector('input[name="yoso"]');
     let yoso = Number(b.value);    // 第5回課題:テキストボックスの数値をここに代入
 
-    let p;
-    let p2;
-    let re = document.querySelector('p#result');
+    let p = document.querySelector('p#result');
     let an = document.querySelector('p#answer');
 
     an.textContent = (kaisu+1) + '回目の予想' + yoso;
