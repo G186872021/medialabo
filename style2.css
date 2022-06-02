@@ -13,7 +13,7 @@ div.hyou {
     margin: 50px;
     padding: 30px;
 
-    background-color: antiquewhite;
+    background-color: gray;
 
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
@@ -27,5 +27,6 @@ div.hyou {
 
 }
 div.box {
-    background: cyan;
+    border: 5px black;
+    background: whitesmoke;
 }
