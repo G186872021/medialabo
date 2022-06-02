@@ -9,13 +9,22 @@ let kaisu = 0;
 // 予想を4回実行する
 // 将来: ボタンを押したら， hantei() を呼び出すように修正する
 hantei();
-hantei();
-hantei();
-hantei();
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
     let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
+
+    let p;
+    let p2;
+    let pp = document.querySelector('p#result');
+    let pp2 = document.querySelector('p#answer');
+    p = document.createElement('p');
+    p2 = document.createElement('p2');
+    pp.insertAdjacentElement('afterend',p);
+    pp2.insertAdjacentElement('afterend',p2);
+
+    p2.textContent = (kaisu+1) + '回目の予想' + yoso;
+
 
     if (yoso===kotae) {
         console.log('正解です。おめでとう!');
