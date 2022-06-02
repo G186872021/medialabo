@@ -9,18 +9,19 @@ header {
     padding: 1.5em;
 }
 div.hyou {
-    float: center;
 
     margin: 50px;
     padding: 30px;
 
     background-color: antiquewhite;
+
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5,1fr);
     /*行の高さ*/
-    grid-template-rows: 50px 50px 50px;
-    grid-gap: 10px;
+    grid-template-rows: repeat(3,minmax(50px,auto));
+
+    grid-gap: px;
 
     width: 500px;
 
