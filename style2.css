@@ -9,7 +9,7 @@ header {
     padding: 1.5em;
 }
 div.hyou {
-
+    margin: 50px;
     
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
