@@ -10,7 +10,8 @@ header {
 }
 div.hyou {
     margin: 50px;
-    
+    padding: 30px;
+
     background-color: antiquewhite;
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
@@ -20,6 +21,7 @@ div.hyou {
     grid-gap: 10px;
 
     width: 500px;
+    height: 150px;
 
 }
 div.box {
