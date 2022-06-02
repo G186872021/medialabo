@@ -8,11 +8,13 @@ let kaisu = 0;
 
 // 予想を4回実行する
 // 将来: ボタンを押したら， hantei() を呼び出すように修正する
-hantei();
+
+let b = document.querySelector('#print');
+b.addEventListener('click', hantei);
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-    let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
+    let yoso =      // 第5回課題:テキストボックスの数値をここに代入
 
     let p;
     let p2;
