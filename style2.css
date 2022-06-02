@@ -11,6 +11,7 @@ header {
 div.hyou {
     margin: 50px;
     
+    background-color: antiquewhite;
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
