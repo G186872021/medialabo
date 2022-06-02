@@ -9,11 +9,16 @@ header {
     padding: 1.5em;
 }
 div.hyou {
-    display: grid;
+    display: grid; /*グリットレイアウト*/
+    /*列の比率と*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*行の高さ*/
     grid-template-rows: 50px 50px 50px;
     grid-gap: 10px;
 
     width: 300px;
 
+}
+div.box {
+    background: cyan;
 }
