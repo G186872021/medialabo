@@ -9,6 +9,8 @@ header {
     padding: 1.5em;
 }
 div.hyou {
+    float: center;
+
     margin: 50px;
     padding: 30px;
 
