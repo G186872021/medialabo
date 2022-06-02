@@ -9,6 +9,8 @@ header {
     padding: 1.5em;
 }
 div.hyou {
+
+    
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
