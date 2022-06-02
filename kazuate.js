@@ -20,12 +20,12 @@ function hantei() {
 
     let p;
     let p2;
-    let pp = document.querySelector('p#result');
-    let pp2 = document.querySelector('p#answer');
+    let re = document.querySelector('p#result');
+    let an = document.querySelector('p#answer');
     p = document.createElement('p');
     p2 = document.createElement('p2');
-    pp.insertAdjacentElement('afterend',p);
-    pp2.insertAdjacentElement('afterend',p2);
+    re.insertAdjacentElement('afterend',p);
+    an.insertAdjacentElement('afterend',p2);
 
     p2.textContent = (kaisu+1) + '回目の予想' + yoso;
 
