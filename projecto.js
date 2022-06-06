@@ -1,4 +1,5 @@
 //クリックした後の操作
+consut a = document.querySelector("kuniS")
 let a = document.querySelector('#kensaku');
 a.addEventListener('click', hantei);
 
