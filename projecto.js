@@ -1,11 +1,10 @@
 //クリックした後の操作
-consut a = document.querySelector("kuniS")
 let a = document.querySelector('#kensaku');
 a.addEventListener('click', hantei);
 
 function hantei() {
-    let tosi = prompt("都市の名前を入力");
-    para.textContent = tosi;
+    let p = document.querySelector('p#test');
+    p.textContent = kensaku;
 }
 //都市を探す
 //idに当てはめる
