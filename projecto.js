@@ -13,5 +13,3 @@ function kensaku(resp) {
 //都市を探す
 
 //idに当てはめる
-
-}
