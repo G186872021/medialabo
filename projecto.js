@@ -2,9 +2,11 @@
 let a = document.querySelector('#kensaku');
 a.addEventListener('click', hantei);
 
+
+let name = prompt();
+let p = document.querySelector('p#test');
+
 function hantei() {
-    let name = prompt();
-    let p = document.querySelector('p#test');
     p.textContent = name;
 }
 //都市を探す
