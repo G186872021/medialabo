@@ -4,7 +4,15 @@ a.addEventListener('click', kensaku);
 
 function kensaku() {
     //URlを設定
-    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/360630.json';
+    let b = document.querySelector('input[name="tosi"]');
+    let tosi;
+    if(b==='Cairo' || b==='カイロ'){
+        tosi = 360630;
+    } else {
+        let p = document.querySelector('p#ans');
+        p.textContent = 'この都市の情報はありません。';
+    }
+    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/'+tosi+'.json';
     // 通信開始
     axios.get(url)
         .then(showResult)   // 通信成功
@@ -35,8 +43,6 @@ function showError(err) {
 // 通信の最後にいつも実行する処理
 function finish() {
     console.log('Ajax 通信が終わりました');
-
-
 //都市を探す
 
 //idに当てはめる
