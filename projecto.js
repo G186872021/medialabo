@@ -5,8 +5,9 @@ a.addEventListener('click', kensaku);
 function kensaku() {
     //URlを設定
     let b = document.querySelector('input[name="tosi"]');
+    let c = b.value;
     let tosi;
-    if(b==='Cairo' || b==='カイロ'){
+    if(c==='Cairo' || c==='カイロ'){
         tosi = 360630;
     } else {
         let p = document.querySelector('p#ans');
