@@ -78,10 +78,4 @@ function finish() {
     main_temp_min.textContent = main.temp_min;
     let main_humidity = document.querySelector('div#main.humidity');
     main_humidity.textContent = main.humidity;
-    let  = document.querySelector('div#');
-    .textContent = name;
-    let  = document.querySelector('div#');
-    .textContent = name;
-    let  = document.querySelector('div#');
-    .textContent = name;
 }
