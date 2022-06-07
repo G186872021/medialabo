@@ -4,7 +4,7 @@ a.addEventListener('click', kensaku);
 
 function kensaku() {
     //URlを設定　
-    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/'++'.json';
+    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/test.json';
     // 通信開始
     axios.get(url)
         .then(showResult)   // 通信成功
