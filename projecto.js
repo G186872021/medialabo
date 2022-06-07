@@ -35,7 +35,9 @@ function showError(err) {
 // 通信の最後にいつも実行する処理
 function finish() {
     console.log('Ajax 通信が終わりました');
-}
+
+
 //都市を探す
 
 //idに当てはめる
+}
