@@ -73,7 +73,7 @@ function finish() {
     let weather_description = document.querySelector('div#weather.description');
     weather_description.textContent = weather.description;
     let maintemp_max = document.querySelector('div#main.temp_max');
-    maintemp_max.textContent = main.temp_max;
+    maintemp_max.textContent = 'aaa'+main.temp_max;
     let main_temp_min = document.querySelector('div#main.temp_min');
     main_temp_min.textContent = main.temp_min;
     let main_humidity = document.querySelector('div#main.humidity');
