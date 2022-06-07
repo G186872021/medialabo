@@ -69,7 +69,7 @@ function finish() {
 
     ////////boxの処理/////////
     let name = document.querySelector('div#name');
-    p.textContent = name;
+    name.textContent = name;
     let weather_description = document.querySelector('div#weather.description');
     weather_description.textContent = weather.description;
     let maintemp_max = document.querySelector('div#main.temp_max');
