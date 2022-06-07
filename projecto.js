@@ -63,13 +63,25 @@ function showError(err) {
     console.log(err);
 }
 
-// 通信の最後にいつも実行する処理
+// 通信の最後にいつも実行する処理///////////////////////////////////
 function finish() {
     console.log('Ajax 通信が終わりました');
 
     ////////boxの処理/////////
-    
-    //都市を探す
-
-    //idに当てはめる
+    let name = document.querySelector('div#name');
+    p.textContent = name;
+    let weather_description = document.querySelector('div#weather.description');
+    weather_description.textContent = weather.description;
+    let maintemp_max = document.querySelector('div#main.temp_max');
+    maintemp_max.textContent = main.temp_max;
+    let main_temp_min = document.querySelector('div#main.temp_min');
+    main_temp_min.textContent = main.temp_min;
+    let main_humidity = document.querySelector('div#main.humidity');
+    main_humidity.textContent = main.humidity;
+    let  = document.querySelector('div#');
+    .textContent = name;
+    let  = document.querySelector('div#');
+    .textContent = name;
+    let  = document.querySelector('div#');
+    .textContent = name;
 }
