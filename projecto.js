@@ -7,8 +7,30 @@ function kensaku() {
     let b = document.querySelector('input[name="tosi"]');
     let c = b.value;
     let tosi;
-    if(c==='Cairo' || c==='カイロ'){
+    if(c==='Cairo' || c==='カイロ' || c==='cairo' || c==='かいろ'){
         tosi = 360630;
+    } else if(c==='Moscow' || c==='モスクワ' || c==='moscow' || c==='もすくわ'){
+        tosi = 524901;
+    } else if(c==='Johannesburg' || c==='ヨハネスブルク' || c==='johannesburg' || c==='よはねすぶるく'){
+        tosi = 993800;
+    } else if(c==='Beijing' || c==='北京' || c==='beijing' || c==='ぺきん' || c==='ペキン'){
+        tosi = 1816670;
+    } else if(c==='Tokyo' || c==='東京' || c==='tokyo' || c==='とうきょう' || c==='トウキョウ'){
+        tosi = 1850147;
+    } else if(c==='Singapore' || c==='シンガポール' || c==='singapore' || c==='しんがぽーる'){
+        tosi = 1880252;
+    } else if(c==='Sydney' || c==='シドニー' || c==='sydney' || c==='しどにー'){
+        tosi = 2147714;
+    } else if(c==='London' || c==='ロンドン' || c==='london' || c==='ろんどん'){
+        tosi = 2643743;
+    } else if(c==='Paris' || c==='パリ' || c==='paris' || c==='ぱり'){
+        tosi = 2968815;
+    } else if(c==='Rio de Janeiro' || c==='リオデジャネイロ' || c==='rio de janeiro' || c==='りおでじゃねいろ'){
+        tosi = 3451189;
+    } else if(c==='New York' || c==='ニューヨーク' || c==='new york' || c==='にゅーよーく'){
+        tosi = 5128581;
+    } else if(c==='Los Angeles' || c==='ロサンゼルス' || c==='los angeles' || c==='ろさんぜるす'){
+        tosi = 5368361;
     } else {
         let p = document.querySelector('p#ans');
         p.textContent = 'この都市の情報はありません。';
@@ -44,7 +66,10 @@ function showError(err) {
 // 通信の最後にいつも実行する処理
 function finish() {
     console.log('Ajax 通信が終わりました');
-//都市を探す
 
-//idに当てはめる
+    ////////boxの処理/////////
+    
+    //都市を探す
+
+    //idに当てはめる
 }
