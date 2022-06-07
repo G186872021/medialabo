@@ -11,7 +11,7 @@ function kensaku() {
         .catch(showError)   // 通信失敗
         .then(finish);      // 通信の最後の処理
 }
-function kensaku(resp) {
+function showResult(resp) {
     // サーバから送られてきたデータを出力
     let data = resp.data;
 
