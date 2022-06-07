@@ -3,7 +3,7 @@ let a = document.querySelector('#kensaku');
 a.addEventListener('click', kensaku);
 
 function kensaku() {
-    //URlを設定　
+    //URlを設定
     let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/360630.json';
     // 通信開始
     axios.get(url)
