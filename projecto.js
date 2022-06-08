@@ -59,6 +59,8 @@ function showResult(resp) {
     let box_1 = document.querySelector('div#name');
     box_1.textContent = data.name;
 
+    let box_2 = document.querySelector('div#weather.description');
+    box_2.textContent = data.weather.description;
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = data.main.temp_max;
@@ -66,12 +68,21 @@ function showResult(resp) {
     let box_4 = document.querySelector('div#main.temp_min');
     box_4.textContent = data.main.temp_min;
 
-    let box_5 = document.querySelector('div#main.humidity');
-    box_5.textContent = data.main.humidity;
+    let box_6 = document.querySelector('div#main.humidity');
+    box_6.textContent = data.main.humidity;
 
+    let box_7 = document.querySelector('div#wind.speed');
+    box_7.textContent = data.wind.speed;
 
-    let box_2 = document.querySelector('div#weather.description');
-    box_2.textContent = data.weather.description;
+    let box_8 = document.querySelector('div#wind.deg');
+    box_8.textContent = data.wind.deg;
+    
+    let box_9 = document.querySelector('div#coord.lon');
+    box_9.textContent = data.coord.lon;
+
+    let box_5 = document.querySelector('div#coord.lat');
+    box_5.textContent = data.coord.lat;
+
 }
 
 // 通信エラーが発生した時の処理
