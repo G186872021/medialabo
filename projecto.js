@@ -59,8 +59,6 @@ function showResult(resp) {
     let box_1 = document.querySelector('div#name');
     box_1.textContent = data.name;
 
-    let box_2 = document.querySelector('div#weather.description');
-    box_2.textContent = data.weather[0];
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = data.main.temp_max;
@@ -70,6 +68,10 @@ function showResult(resp) {
 
     let box_5 = document.querySelector('div#main.humidity');
     box_5.textContent = data.main.humidity;
+
+
+    let box_2 = document.querySelector('div#weather.description');
+    box_2.textContent = data.weather.0.description;
 }
 
 // 通信エラーが発生した時の処理
