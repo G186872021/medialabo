@@ -48,6 +48,8 @@ function showResult(resp) {
 
     if (typeof data === 'string') {
         data = JSON.parse(data);
+    } else if(typeof data === 'Number'){
+        data = JSON.parse(data);
     }
 
     //
