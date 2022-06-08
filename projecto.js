@@ -57,7 +57,7 @@ function showResult(resp) {
     console.log(data.x);
 
     let box_1 = document.querySelector('div#name');
-    box_1.textContent = name;
+    box_1.textContent = 'aaaa';
 
     let box_2 = document.querySelector('div#weather.description');
     box_2.textContent = weather.description;
