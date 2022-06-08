@@ -69,7 +69,7 @@ function finish() {
 
     ////////boxの処理/////////
     let box_1 = document.querySelector('div#name');
-    box_1.textContent = name;
+    box_1.textContent = coord.name;
 
     let box_2 = document.querySelector('div#weather.description');
     box_2.textContent = weather.description;
