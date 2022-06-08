@@ -71,7 +71,7 @@ function showResult(resp) {
 
 
     let box_2 = document.querySelector('div#weather.description');
-    box_2.textContent = data.weather.0.description;
+    box_2.textContent = data.weather.description;
 }
 
 // 通信エラーが発生した時の処理
