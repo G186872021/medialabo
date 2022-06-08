@@ -68,7 +68,7 @@ function showResult(resp) {
     console.log(data.coord.lon);
     
     console.log(data.coord.lat);
-    }
+    
 
     // data をコンソールに出力
     console.log(data);
