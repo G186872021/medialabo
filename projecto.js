@@ -72,7 +72,7 @@ function finish() {
     box_1.textContent = coord.name;
 
     let box_2 = document.querySelector('div#weather.description');
-    box_2.textContent = weather.description;
+    box_2.textContent = weather.O.description;
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = main.temp_max;
