@@ -68,14 +68,18 @@ function finish() {
     console.log('Ajax 通信が終わりました');
 
     ////////boxの処理/////////
-    let name = document.querySelector('div#name');
-    name.textContent = name;
-    let weather_1 = document.querySelector('div#weather.description');
-    weather_1.textContent = weather.description;
-    let maintemp_max = document.querySelector('div#main.temp_max');
-    maintemp_max.textContent = 'aaa'+main.temp_max;
-    let main_temp_min = document.querySelector('div#main.temp_min');
-    main_temp_min.textContent = main.temp_min;
-    let main_humidity = document.querySelector('div#main.humidity');
-    main_humidity.textContent = main.humidity;
+    let box_1 = document.querySelector('div#name');
+    box_1.textContent = url.name;
+
+    let box_2 = document.querySelector('div#weather.description');
+    box_2.textContent = weather.description;
+
+    let box_3 = document.querySelector('div#main.temp_max');
+    box_3.textContent = main.temp_max;
+
+    let box_4 = document.querySelector('div#main.temp_min');
+    box_4.textContent = main.temp_min;
+
+    let box_5 = document.querySelector('div#main.humidity');
+    box_5.textContent = main.humidity;
 }
