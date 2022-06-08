@@ -56,18 +56,7 @@ function showResult(resp) {
 
     // data.x を出力
     console.log(data.x);
-}
 
-// 通信エラーが発生した時の処理
-function showError(err) {
-    console.log(err);
-}
-
-// 通信の最後にいつも実行する処理///////////////////////////////////
-function finish() {
-    console.log('Ajax 通信が終わりました');
-
-    ////////boxの処理/////////
     let box_1 = document.querySelector('div#name');
     box_1.textContent = name;
 
@@ -81,4 +70,16 @@ function finish() {
 
     let box_5 = document.querySelector('div#main.humidity');
     box_5.textContent = main.humidity;
+}
+
+// 通信エラーが発生した時の処理
+function showError(err) {
+    console.log(err);
+}
+
+// 通信の最後にいつも実行する処理///////////////////////////////////
+function finish() {
+    console.log('Ajax 通信が終わりました');
+
+    ////////boxの処理/////////
 }
