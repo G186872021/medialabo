@@ -46,7 +46,6 @@ function showResult(resp) {
     // サーバから送られてきたデータを出力
     let data = resp.data;
 
-    // data が文字列型なら，オブジェクトに変換する
     if (typeof data === 'string') {
         data = JSON.parse(data);
     }
@@ -61,6 +60,7 @@ function showResult(resp) {
     box_1.textContent = name;
 
     let box_2 = document.querySelector('div#weather.description');
+    box_2.textContent = weather.description;
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = main.temp_max;
