@@ -54,6 +54,7 @@ function showResult(resp) {
 
     //
     console.log(data.name);
+    
     for (let a of weather.descriptio) {
         console.log(a);
     }
