@@ -70,10 +70,6 @@ window.onload = function () {
         console.log(data.wind.speed);
         
         console.log(data.wind.deg);
-            
-        console.log(data.coord.lon);
-        
-        console.log(data.coord.lat);
 
 
 
@@ -96,26 +92,21 @@ window.onload = function () {
             box_4.textContent = data.main.temp_min;
         }
 
-        let box_6 = document.querySelector('div#humidity');
-        if(box_6) {
-           box_6.textContent = data.main.humidity;
+        let box_5 = document.querySelector('div#humidity');
+        if (box_5) {
+            box_5.textContent = data.main.humidity;
         }
        
 
-        let box_7 = document.querySelector('div#wind.speed');
-        if(box_7) {
-            box_7.textContent = data.wind.speed;
+        let box_6 = document.querySelector('div#wind');
+        if (box_6) {
+            box_6.textContent = data.wind.speed;
         }
 
-        let box_8 = document.querySelector('div#wind.deg');
-        box_8.textContent = data.wind.deg;
-        
-        let box_9 = document.querySelector('div#coord.lon');
-        box_9.textContent = data.coord.lon;
-
-        let box_5 = document.querySelector('div#coord.lat');
-        box_5.textContent = data.coord.lat;
-
+        let box_7 = document.querySelector('div#wind.deg');
+        if (box_7) {
+            box_7.textContent = data.wind.deg;
+        }
     }
 
     // 通信エラーが発生した時の処理
