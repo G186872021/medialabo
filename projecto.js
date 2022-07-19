@@ -55,9 +55,7 @@ function showResult(resp) {
     //
     console.log(data.name);
     
-    for (let a of weather.descriptio) {
-        console.log(a);
-    }
+    console.log(weather.description);
     
     console.log(data.main.temp_max);
     
