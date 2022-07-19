@@ -103,7 +103,7 @@ window.onload = function () {
             box_6.textContent = data.wind.speed;
         }
 
-        let box_7 = document.querySelector('div#wind.deg');
+        let box_7 = document.querySelector('div#deg');
         if (box_7) {
             box_7.textContent = data.wind.deg;
         }
