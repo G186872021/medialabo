@@ -81,10 +81,10 @@ function showResult(resp) {
     let box_1 = document.querySelector('div#name');
     box_1.textContent = data.name;
 
-    let p = document.createElement('');
     let box_2 = document.querySelector('div#weather.description');
-    box_2.insertAdjacentElement('afterend', p);
-    //box_2.textContent = data.weather.description;
+    for (let a of weather.description) {
+        box_2.textContent = data.a;
+    }
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = data.main.temp_max;
