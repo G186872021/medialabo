@@ -88,7 +88,6 @@ function showResult(resp) {
     for (let a of data.weather) {
         box_2.textContent = a.description;
     }
-    box_2.textContent = data.weather;
 
     let box_3 = document.querySelector('div#main.temp_max');
     box_3.textContent = data.main.temp_max;
