@@ -89,8 +89,8 @@ function showResult(resp) {
         box_2.textContent = a.description;
     }
 
-    //let box_3 = document.querySelector('div#main.temp_max');
-    //box_3.textContent = data.main.temp_max;
+    let box_3 = document.querySelector('div#main.temp_max');
+    box_3.textContent = data.main.temp_max;
 
     let box_4 = document.querySelector('div#main.temp_min');
     box_4.textContent = data.main.temp_min;
