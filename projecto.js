@@ -73,14 +73,9 @@ function showResult(resp) {
     console.log(data.coord.lon);
     
     console.log(data.coord.lat);
+
+
     
-
-    // data をコンソールに出力
-    console.log(data);
-
-    // data.x を出力
-    console.log(data.x);
-
     let box_1 = document.querySelector('div#name');
     box_1.textContent = data.name;
 
