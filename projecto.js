@@ -55,8 +55,8 @@ function showResult(resp) {
     //
     console.log(data.name);
     
-    console.log(weather.description);
-    
+    console.log(data.weather.description);
+
     console.log(data.main.temp_max);
     
     console.log(data.main.temp_min);
