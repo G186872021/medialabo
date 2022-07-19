@@ -85,18 +85,18 @@ window.onload = function () {
             box_2.textContent = a.description;
         }
 
-        let box_3 = document.querySelector('div#main.temp_max');
+        let box_3 = document.querySelector('div#temp_max');
         if (box_3) {
             box_3.textContent = data.main.temp_max;
         }
     
 
-        let box_4 = document.querySelector('div#main.temp_min');
+        let box_4 = document.querySelector('div#temp_min');
         if (box_4) {
             box_4.textContent = data.main.temp_min;
         }
 
-        let box_6 = document.querySelector('div#main.humidity');
+        let box_6 = document.querySelector('div#humidity');
         if(box_6) {
            box_6.textContent = data.main.humidity;
         }
