@@ -84,7 +84,7 @@ function showResult(resp) {
     let box_1 = document.querySelector('div#name');
     box_1.textContent = data.name;
 
-    let box_2 = document.querySelector('div#weather.description');
+    let box_2 = document.querySelector('div#weather');
     for (let a of data.weather) {
         box_2.textContent = a.description;
     }
