@@ -58,7 +58,7 @@ function showResult(resp) {
     console.log(data.weather);
 
     for (let a of data.weather) {
-        console.log(a);
+        console.log(a.description);
     }
     console.log(data.main.temp_max);
     
@@ -86,7 +86,7 @@ function showResult(resp) {
 
     let box_2 = document.querySelector('div#weather.description');
     for (let a of data.weather) {
-        box_2.textContent = a;
+        box_2.textContent = a.description;
     }
     box_2.textContent = data.weather;
 
