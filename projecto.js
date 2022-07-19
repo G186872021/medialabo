@@ -92,13 +92,20 @@ window.onload = function () {
     
 
         let box_4 = document.querySelector('div#main.temp_min');
-        box_4.textContent = data.main.temp_min;
+        if (box_4) {
+            box_4.textContent = data.main.temp_min;
+        }
 
         let box_6 = document.querySelector('div#main.humidity');
-        box_6.textContent = data.main.humidity;
+        if(box_6) {
+           box_6.textContent = data.main.humidity;
+        }
+       
 
         let box_7 = document.querySelector('div#wind.speed');
-        box_7.textContent = data.wind.speed;
+        if(box_7) {
+            box_7.textContent = data.wind.speed;
+        }
 
         let box_8 = document.querySelector('div#wind.deg');
         box_8.textContent = data.wind.deg;
