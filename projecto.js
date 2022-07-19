@@ -1,8 +1,6 @@
 window.onload = function () {
     //クリックした後の操作
 
-    location.href='pureject.html';
-
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);
 
