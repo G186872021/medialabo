@@ -5,7 +5,7 @@ window.onload = function () {
 
     const hyou = document.getElementById("p1");
 
-	if(p1.style.display=="block"){
+	if(p1.style.display=="none"){
 		// noneで非表示
 		p1.style.display ="none";
 	}else{
