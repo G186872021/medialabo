@@ -19,7 +19,7 @@ p {
 }
 
 button.kensaku {
-    
+
     text-align: center;
 }
 div.hyou {
@@ -27,7 +27,7 @@ div.hyou {
     margin: 50px;
     padding: 10px;
 
-    background-color: rgb(70, 235, 216);
+    background-color: rgb(93, 118, 115);
 
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
