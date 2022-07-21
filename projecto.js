@@ -1,7 +1,17 @@
+document.getElementById("hyou").style.visibility ="hidden";
+
 window.onload = function () {
     //クリックした後の操作
 
-    
+    const hyou = document.getElementById("hyou");
+
+	if(hyou.style.visibility=="visible"){
+		// hiddenで非表示
+		hyou.style.visibility ="hidden";
+	}else{
+		// visibleで表示
+		hyou.style.visibility ="visible";
+	}
 
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);
