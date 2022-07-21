@@ -56,29 +56,6 @@ window.onload = function (){
             data = JSON.parse(data);
         }
 
-        
-        
-
-
-
-        console.log(data.name);
-        
-        console.log(data.weather);
-
-        for (let a of data.weather) {
-            console.log(a.description);
-        }
-        console.log(data.main.temp_max);
-        
-        console.log(data.main.temp_min);
-        
-        console.log(data.main.humidity);
-        
-        console.log(data.wind.speed);
-        
-        console.log(data.wind.deg);
-
-
 
         let box_1 = document.querySelector('div#name');
         box_1.textContent = data.name;
