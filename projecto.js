@@ -1,17 +1,20 @@
 document.getElementById("hyou").style.display ="none";
 
-window.onload = function () {
-    //クリックした後の操作
+function clickBtn1(){
+	const p1 = document.getElementById("p1");
 
-    const hyou = document.getElementById("p1");
-
-	if(p1.style.display=="none"){
+	if(p1.style.display=="block"){
 		// noneで非表示
 		p1.style.display ="none";
 	}else{
 		// blockで表示
 		p1.style.display ="block";
 	}
+}
+
+window.onload = function clickBtn1() {
+    //クリックした後の操作
+
 
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);
