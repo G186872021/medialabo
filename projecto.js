@@ -1,6 +1,6 @@
 document.getElementById("hyou").style.display ="none";
 
-function clickBtn1(){
+function (){
 	const p1 = document.getElementById("p1");
 
 	if(p1.style.display=="block"){
@@ -12,7 +12,7 @@ function clickBtn1(){
 	}
 }
 
-window.onload = function clickBtn1() {
+window.onload = function (){
     //クリックした後の操作
 
 
