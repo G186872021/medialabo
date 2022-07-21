@@ -1,4 +1,4 @@
-document.getElementById("div.hyou").style.display ="none";
+document.getElementById("hyou").style.display ="none";
 
 window.onload = function () {
     //クリックした後の操作
