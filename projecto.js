@@ -1,10 +1,7 @@
 window.onload = function () {
     //クリックした後の操作
 
-    const element_1 = document.getElementById('div.hyou'); 
-    element_1.remove();
-    const element_2 = document.getElementById('p'); 
-    element_2.remove();
+    
 
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);
@@ -59,7 +56,14 @@ window.onload = function () {
             data = JSON.parse(data);
         }
 
-        //
+        
+        const element_1 = document.getElementById('div.hyou'); 
+        element_1.remove();
+        const element_2 = document.getElementById('p'); 
+        element_2.remove();
+
+
+
         console.log(data.name);
         
         console.log(data.weather);
