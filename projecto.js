@@ -1,7 +1,17 @@
+document.getElementById("div.hyou").style.display ="none";
 
 window.onload = function () {
     //クリックした後の操作
 
+    const div.hyou = document.getElementById("p1");
+
+	if(p1.style.display=="block"){
+		// noneで非表示
+		p1.style.display ="none";
+	}else{
+		// blockで表示
+		p1.style.display ="block";
+	}
 
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);

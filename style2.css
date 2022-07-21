@@ -14,7 +14,9 @@ body {
     background: rgb(0, 0, 0);
 
 }
-
+p {
+    color: white;
+}
 div.hyou {
 
     margin: 50px;
