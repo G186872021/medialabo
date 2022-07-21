@@ -1,5 +1,5 @@
 header {
-    background: skyblue;
+    background: black;
 
     color: white;
     text-align: center;
@@ -8,7 +8,11 @@ header {
     height: 5em;
     padding: 1.5em;
 }
+body {
+    
+    background: black;
 
+}
 div.hyou {
 
     margin: 50px;
