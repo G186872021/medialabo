@@ -1,6 +1,6 @@
 document.getElementById("hyou").style.display ="none";
 
-function (){
+window.onload = function (){
 	const p1 = document.getElementById("p1");
 
 	if(p1.style.display=="block"){
