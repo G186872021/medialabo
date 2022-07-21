@@ -1,8 +1,11 @@
 window.onload = function () {
     //クリックした後の操作
 
+    const element_1 = document.getElementById('div.hyou'); 
+    element_1.remove();
+    const element_2 = document.getElementById('p'); 
+    element_2.remove();
 
-    
     let a = document.querySelector('#kensaku');
     a.addEventListener('click', kensaku);
 
