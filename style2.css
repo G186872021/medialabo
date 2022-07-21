@@ -10,8 +10,11 @@ header {
 }
 body {
 
-    /*background: black;*/
+    background: black;
 
+}
+button.kensaku{
+    float: left;
 }
 div.hyou {
 
