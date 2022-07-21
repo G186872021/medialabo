@@ -57,10 +57,7 @@ window.onload = function () {
         }
 
         
-        const element_1 = document.getElementById('div.hyou'); 
-        element_1.remove();
-        const element_2 = document.getElementById('p'); 
-        element_2.remove();
+        
 
 
 
