@@ -1,9 +1,9 @@
-document.getElementById("hyou").style.visibility ="hidden";
+document.getElementById("div").style.visibility ="hidden";
 
 window.onload = function () {
     //クリックした後の操作
 
-    const hyou = document.getElementById("hyou");
+    const div = document.getElementById("hyou");
 
 	if(hyou.style.visibility=="visible"){
 		// hiddenで非表示
