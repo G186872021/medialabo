@@ -26,7 +26,7 @@ div.hyou {
     /*列の比率と*/
     grid-template-columns: 100px 1fr;
     /*行の高さ*/
-    grid-template-rows: repeat(9,minmax(50px,auto));
+    grid-template-rows: repeat(7,minmax(50px,auto));
 
     grid-gap: 10px;
 
