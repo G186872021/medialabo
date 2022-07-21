@@ -25,6 +25,7 @@ h1 {
 
 
 h3 {
+    text-align: center;
     color: white;
 
 }
@@ -32,4 +33,12 @@ main {
     background: rgb(6, 2, 46);
     color: white;
     padding: 4em;
+}
+
+h4 {
+    text-align: center;
+}
+
+p{
+    width: 30px;
 }
