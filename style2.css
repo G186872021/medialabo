@@ -8,20 +8,19 @@ header {
     height: 5em;
     padding: 1.5em;
 }
+
 body {
 
     background: black;
 
 }
-button.kensaku{
-    float: left;
-}
+
 div.hyou {
 
     margin: 50px;
     padding: 10px;
 
-    background-color: gray;
+    background-color: rgb(70, 235, 216);
 
     display: grid; /*グリットレイアウト*/
     /*列の比率と*/
@@ -32,6 +31,14 @@ div.hyou {
     grid-gap: 10px;
 
 }
+
+div.name {
+    color: white;
+
+
+}
 div.box {
+
+
     background: whitesmoke;
 }
