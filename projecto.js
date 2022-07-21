@@ -1,16 +1,3 @@
-document.getElementById("hyou").style.display ="none";
-
-window.onload = function (){
-	const hyou = document.getElementById("p1");
-
-	if(p1.style.display=="block"){
-		// noneで非表示
-		p1.style.display ="none";
-	}else{
-		// blockで表示
-		p1.style.display ="block";
-	}
-}
 
 window.onload = function (){
     //クリックした後の操作
